@@ -24,7 +24,7 @@ public class PluginTest {
 
     @Before
     public void beforetest(){
-        configFile = new File("/Users/wenpeng/Documents/project_space/mybatis-generator-plugin/src/main/resources/generatorConfig.xml");
+        configFile = new File("~/mybatis-generator-plugin/src/main/resources/generatorConfig.xml");
     }
 
     @Test
