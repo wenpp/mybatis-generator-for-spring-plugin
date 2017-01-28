@@ -8,9 +8,9 @@
 - SpringServiceInterfacePlugin
 
 ## 如何测试和使用上面的插件
-* 找到resources文件夹中的generatorConfig.xml 1
-* 指定数据库jdbcConnection连接 2
-* 指定需要使用的插件 3
+1. 找到resources文件夹中的generatorConfig.xml 1
+2. 指定数据库jdbcConnection连接 2
+3. 指定需要使用的插件 3
         <!--分页插件-->
         <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin"></plugin>
         <!--给Mapper增加@Mapper注解-->
@@ -23,7 +23,7 @@
         </plugin>
         <plugin type="com.neo.mybatis.generator.plugin.JacksonAnnotationPlugin"></plugin>
 
-* 修改测试 PluginTest文件，运行单元测试生成需要的代码 4
+4. 修改测试 PluginTest文件，运行单元测试生成需要的代码 4
     ```java
     private File configFile;
 
